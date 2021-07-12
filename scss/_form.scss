@@ -6,6 +6,7 @@ form {
    fieldset {
       position: relative;
       border: none;
+      padding: 0;
    }
 
    legend {
@@ -41,8 +42,8 @@ form {
    .dollar-logo,
    .person-logo {
       position: absolute;
-      top: 0.9em;
-      left: 1.5em;
+      top: 0.6em;
+      left: 0.75em;
    }
 
    .tip {
