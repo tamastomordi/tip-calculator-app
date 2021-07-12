@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -15,30 +15,32 @@
   </style>
 </head>
 <body>
-  <img src="./images/logo.svg" alt="logo">
+  <img class="logo" src="./images/logo.svg" alt="logo">
   <div class="card">
     <form>
       <fieldset class="bill">
         <legend>Bill</legend>
-        <input id="bill" type="number">
+        <img class="dollar-logo" src="images/icon-dollar.svg" alt="">
+        <input id="bill" type="text" value="142.55">
       </fieldset>
       <fieldset class="tip">
         <legend>Select Tip %</legend>
-        <label for="tip-five">5%</label>
         <input type="radio" id="tip-five" name="tip" value="5">
-        <label for="tip-ftenive">10%</label>
+        <label for="tip-five">5%</label>
         <input type="radio" id="tip-ten" name="tip" value="10">
-        <label for="tip-fifteen">15%</label>
+        <label for="tip-ten">10%</label>
         <input type="radio" id="tip-fifteen" name="tip" value="15">
-        <label for="tip-twentyfive">25%</label>
+        <label for="tip-fifteen">15%</label>
         <input type="radio" id="tip-twentyfive" name="tip" value="25">
-        <label for="tip-fifty">50%</label>
+        <label for="tip-twentyfive">25%</label>
         <input type="radio" id="tip-fifty" name="tip" value="50">
+        <label for="tip-fifty">50%</label>
         <input type="text" id="custom" value="Custom">
       </fieldset>
       <fieldset class="people">
         <legend>Number of People</legend>
-        <input id="number-of-people" type="number">
+        <img class="person-logo" src="images/icon-person.svg" alt="">
+        <input id="number-of-people" type="text" value="5">
       </fieldset>
       <div class="inner-card">
         <p class="label">Tip Amount <br><span>/ person</span></p>

@@ -11,5 +11,24 @@
    --fs-base: 1.5rem;
 
    --ff-base: 'Space Mono', monospace;
+}
 
+body {
+   background: var(--clr-neutral-400);
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   font-size: var(--fs-base);
+   font-family: var(--ff-base);
+
+   .logo {
+      margin: 2em;
+   }
+
+   .card {
+      background: var(--clr-neutral-200);
+      border-radius: 1.5em;
+      padding: 1.5em 0.5em;
+   }
 }
